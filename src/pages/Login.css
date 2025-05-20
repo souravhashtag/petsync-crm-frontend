@@ -1,0 +1,49 @@
+/* Ensure full height for body and root */
+html, body, #root {
+  height: 100%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout container fills full viewport */
+.login-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styling */
+.login-header {
+  background-color: #001529;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 64px;
+}
+
+/* Center content vertically and horizontally */
+.login-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+  padding: 24px;
+}
+
+/* Card style for login box */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+.login-footer {
+  text-align: center;
+  background-color: #f0f2f5;
+  padding: 12px;
+  color: #999;
+}
