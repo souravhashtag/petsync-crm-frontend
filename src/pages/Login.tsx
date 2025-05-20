@@ -19,7 +19,7 @@ const Login: React.FC = () => {
         password: values.password,
       });
 
-      console.log('Login :',response.data.success);
+      console.log('Login :',response.data.success); 
 
       if (response.data.success) {
         message.success('Login successful!');
@@ -33,6 +33,7 @@ const Login: React.FC = () => {
       setErrorMsg(error.response?.data?.error || 'Login error!');
     }
   };
+  
     
  
   const handleGoogleLogin = () => {

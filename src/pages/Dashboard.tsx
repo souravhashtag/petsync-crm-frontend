@@ -92,3 +92,4 @@ const [user, setUser] = useState<{ name: string } | null>(null);
 };
 
 export default Dashboard;
+
